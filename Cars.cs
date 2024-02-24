@@ -12,7 +12,7 @@ namespace wypozyczalnia
         public string Brand { get; set; }
         public string Type {  get; set; }
         public string Engine {  get; set; }
-        public string Status { get; set; }  
+       public bool Status { get; set; }
         public decimal Price {  get; set; }
 
     }
